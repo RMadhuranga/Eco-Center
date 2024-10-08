@@ -30,6 +30,6 @@ npm run start
 - Rukmal Madhuranga
 - Sanduni Vidhusha
 - Bhagya Senawiratne
-- Sasanka Malshan
+- Sasanka Nirmal
 =======
 ### We'll see you in the next one! 🚀
