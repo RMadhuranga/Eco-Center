@@ -26,10 +26,10 @@ npm run build
 npm run start
 ```
 
-### I'll see you in the next one! 🚀
-
 - Janith Nilkshan
 - Rukmal Madhuranga
 - Sanduni Vidhusha
 - Bhagya Senawiratne
 - Sasanka Malshan
+=======
+### We'll see you in the next one! 🚀
