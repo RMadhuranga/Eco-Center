@@ -1,4 +1,4 @@
-<h1 align="center">Eco Center </h1>
+<h1 align="center">Eco-Center </h1>
 
 ### Setup .env file
 
@@ -26,4 +26,10 @@ npm run build
 npm run start
 ```
 
+- Janith Nilkshan
+- Rukmal Madhuranga
+- Sanduni Vidhusha
+- Bhagya Senawiratne
+- Sasanka Malshan
+=======
 ### We'll see you in the next one! 🚀
