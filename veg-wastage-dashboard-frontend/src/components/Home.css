@@ -1,0 +1,159 @@
+/* src/components/Home.css */
+
+.home-container {
+    padding: 10px;
+  }
+  
+  /* Styling for the home-header section */
+  .home-header {
+    position: relative;
+    width: 100%;
+    max-width: 1280px; /* Restrict header width to 1280px */
+    height: 720px; /* Set height to match image resolution */
+    margin: 0 auto; /* Center align the header */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  /* Slider styling */
+  .header-slider {
+    top: 5%;
+    width: 60%; /* Make slider take full width of its container */
+    height: 100%; /* Full height of the header */
+    display: flex;
+    justify-content: center; /* Center align slider items */
+    align-items: center; /* Vertically center align slider items */
+    margin-left: 290px;
+    
+    
+  }
+  
+  /* Centering and sizing of slider images */
+  .slider-image {
+    width: auto; /* Maintain the image's aspect ratio */
+    height: 100%; /* Set image height to take full slider height */
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    object-fit: cover; /* Ensure the image covers the entire slider */
+    display: block;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    
+  }
+  
+  /* Title styling */
+  .header-title {
+    position: absolute;
+    top: 500px;
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Horizontal center alignment */
+    width: 100%; /* Make the header-title take the full page width */
+    text-align: center; /* Center-align the text */
+    font-size: 2.9rem;
+    color: #0b947d(74, 107, 8);
+    text-shadow: 2px 2px 4px rgba(136, 135, 135, 0.7);
+    z-index: 10; /* Ensure the title is above the image */
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700; /* Adjusted to '900' instead of '900px' */
+  }
+  
+  
+  /* Subtitle styling */
+  .header-info {
+    position: absolute;
+    bottom: 30px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around; /* Spread content evenly */
+    gap: 25px;
+    width: 100%; /* Set the width to full-page */
+    font-size: 1.2rem;
+    color: #16b116; /* Change font color to green */
+    z-index: 10; /* Ensure the subtitle is above the image */
+  }
+  .header-info p {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    color: #11301c; /* Default text color */
+  }
+  
+  .header-info p svg {
+    color: #16b116; /* Custom color for icons */
+    font-size: 1.2rem; /* Custom size for icons */
+  }
+ 
+
+  
+  
+  
+  /* Mission and Vision sections */
+  .mission-section,
+  .vision-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    
+  }
+  
+  .text-content {
+    width: 45%;
+    gap: 25px;
+  }
+  
+  .text-content-header {
+    font-size: 50px;
+    color: #16b116;
+  }
+  
+
+  .image-content {
+    width: 20%;
+    margin: 100px;
+  }
+  
+  .section-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1280px) {
+    .home-header {
+      height: auto; /* Adjust header height for smaller screens */
+    }
+  
+    .slider-image {
+      object-fit: contain; /* Maintain aspect ratio */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 2rem;
+    }
+  
+    .header-info {
+      flex-direction: column;
+      font-size: 1rem;
+    }
+  
+    .mission-section,
+    .vision-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-content,
+    .image-content {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
+ 
+  
